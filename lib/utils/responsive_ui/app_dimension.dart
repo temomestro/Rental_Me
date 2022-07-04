@@ -15,7 +15,7 @@ class AppDimension {
   static double oneHundred = xxLarge * fiftySevenHundredths; //100
 
   // * * this variable for handle half and quarter and full screen
-
+  static double xxxLarge = base * xxLarge; //xxLarge = 64.0
   static double half = 0.5;
   static double quarter = 0.25;
   static double full = 1.0;

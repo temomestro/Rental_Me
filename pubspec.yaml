@@ -16,6 +16,8 @@ dependencies:
   
   # Fonts
   google_fonts: ^3.0.1
+  #adapting all screen size 
+  flutter_screenutil: ^5.5.3+2
 
 
 dev_dependencies:
@@ -33,6 +35,9 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+
+
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
