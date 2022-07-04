@@ -16,8 +16,12 @@ dependencies:
   
   # Fonts
   google_fonts: ^3.0.1
+
   #adapting all screen size 
   flutter_screenutil: ^5.5.3+2
+
+  #Translation
+  easy_localization: ^3.0.1
 
 
 dev_dependencies:
@@ -35,6 +39,7 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+    - assets/language/
 
 
 

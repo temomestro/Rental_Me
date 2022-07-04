@@ -1,11 +1,4 @@
-import 'dart:async';
-
-import 'package:easy_travel/utils/constant/app_image.dart';
-import 'package:easy_travel/utils/responsive_ui/app_dimension.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'dart:developer' as track;
-import 'home.dart';
+part of '../utils/imports/app_import.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -26,11 +19,12 @@ class _SplashScreenState extends State<SplashScreen> {
     track.log('initState', name: 'SplashScreen');
   }
 
-@override
+  @override
   void dispose() {
     super.dispose();
     track.log('dispose', name: 'SplashScreen');
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
