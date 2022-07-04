@@ -5,6 +5,33 @@ class PageHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body: Center(child: Text('Home')));
+    return Scaffold(
+        body: Column(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        const Text('Home').tr(),
+        Row(
+          children: [
+            Expanded(
+                child: ElevatedButton(
+              child: const Text('Arabic'),
+              onPressed: () {
+                AppSetLanguageProperties.setLanguage(
+                    context, AppLanguageProperties.arLocal);
+              },
+            )),
+            Expanded(
+                child: ElevatedButton(
+              child: const Text('English'),
+              onPressed: () {
+                AppSetLanguageProperties.setLanguage(
+                    context, AppLanguageProperties.enLocal);
+              },
+            )),
+          ],
+        )
+      ],
+    ));
   }
 }
