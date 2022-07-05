@@ -3,7 +3,7 @@ part of '../imports/app_import.dart';
 class AppSetLanguageProperties {
   //Get Current Language of app
   static String currentLanguage(BuildContext context) =>
-      context.locale.toString();
+      context.locale.languageCode.toString();
 
   //Change Language of app
   static void setLanguage(BuildContext context, Locale newLocale) =>
