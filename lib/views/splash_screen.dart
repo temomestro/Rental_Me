@@ -1,13 +1,13 @@
 part of '../utils/imports/app_import.dart';
 
-class SplashScreen extends StatefulWidget {
-  const SplashScreen({Key? key}) : super(key: key);
-
+class PageSplash extends StatefulWidget {
+  const PageSplash({Key? key}) : super(key: key);
+  static String routeName = 'PageSplash';
   @override
-  State<SplashScreen> createState() => _SplashScreenState();
+  State<PageSplash> createState() => _PageSplashState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class _PageSplashState extends State<PageSplash> {
   @override
   void initState() {
     Timer(const Duration(seconds: 5), () {
@@ -16,13 +16,13 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.pushAndRemoveUntil(context, route, (route) => false);
     });
     super.initState();
-    track.log('initState', name: 'SplashScreen');
+    track.log('initState', name: PageSplash.routeName);
   }
 
   @override
   void dispose() {
     super.dispose();
-    track.log('dispose', name: 'SplashScreen');
+    track.log('dispose', name: PageSplash.routeName);
   }
 
   @override

@@ -14,7 +14,8 @@ class EasyTravel extends StatelessWidget {
           localizationsDelegates: context.localizationDelegates,
           supportedLocales: context.supportedLocales,
           locale: context.locale,
-          home: const SplashScreen(),
+          routes: AppRoute.route,
+          initialRoute:PageSplash.routeName ,
         );
       },
     );

@@ -1,5 +1,9 @@
 part of '../imports/app_import.dart';
 
 class AppRoute {
-  static Map<String, WidgetBuilder> route = {};
+  // * Pages in project *
+  static Map<String, WidgetBuilder> route = {
+    PageSplash.routeName: (context) => const PageSplash(),
+    PageHome.routeName: (context) => const PageHome(),
+  };
 }
