@@ -1,6 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
 import '../constant/app_image.dart';
-import '../languages/app_language_properties.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'dart:developer' as track;
@@ -9,6 +8,8 @@ import '../responsive_ui/app_dimension.dart';
 
 // * Utils
 part '../languages/app_language_set_properties.dart';
+part '../route/app_route.dart';
+part '../languages/app_language_properties.dart';
 
 // * Views
 part '../../views/home.dart';

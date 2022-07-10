@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of '../imports/app_import.dart';
 
 class AppLanguageProperties {
   static String kAr = 'ar';
