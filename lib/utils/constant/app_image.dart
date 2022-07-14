@@ -1,3 +1,3 @@
 class AppImages {
-  static String appLogo = 'assets/images/splash_screen_logo.png';
+  static String appLogo = 'assets/images/splash_screen_dark_logo (1).png';
 }

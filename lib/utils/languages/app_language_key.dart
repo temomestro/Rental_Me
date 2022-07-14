@@ -1,4 +1,3 @@
-class AppLanguageKey
-{
-  
+class AppLanguageKey {
+  static String appName = 'appName';
 }

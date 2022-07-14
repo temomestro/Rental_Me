@@ -41,7 +41,7 @@ class _PageSplashState extends State<PageSplash> {
             //space between logo and text
             AppDimension.medium.verticalSpace,
             //Logo Text
-            const Text('Easy Travel')
+            Text(AppLanguageKey.appName.tr()),
           ],
         ),
       ),

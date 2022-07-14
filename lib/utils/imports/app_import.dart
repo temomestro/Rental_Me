@@ -1,4 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:easy_travel/utils/languages/app_language_key.dart';
 import '../constant/app_image.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
