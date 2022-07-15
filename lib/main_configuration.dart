@@ -11,11 +11,15 @@ class EasyTravel extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Rental Me',
+          // language configuration
           localizationsDelegates: context.localizationDelegates,
           supportedLocales: context.supportedLocales,
           locale: context.locale,
           routes: AppRoute.route,
-          initialRoute:PageSplash.routeName ,
+          initialRoute: PageSplash.routeName,
+          // * theme
+          theme: AppThemeChoose.lightTheme(context),
+          darkTheme: AppThemeChoose.darkTheme(context),
         );
       },
     );
