@@ -5,4 +5,9 @@ class AppIcons {
   static String settingsIcon = 'assets/icons/settings icon_icon.svg';
   static String termIcon = 'assets/icons/terms.svg';
   static String themeIcon = 'assets/icons/theme_icon.svg';
+  static String saleIcon = 'assets/icons/sales.svg';
+  static String lightDetails = 'assets/icons/info.svg';
+  static String darkDetails = 'assets/icons/info-white.svg';
+  static String lightSales = 'assets/icons/cart-plus.svg';
+  static String darkSales = 'assets/icons/cart-plus-white.svg';
 }

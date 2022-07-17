@@ -1,31 +1,52 @@
 part of '../imports/app_import.dart';
 
 class AppSvg {
-  static double xlg = AppDimension.xLarge / AppDimension.twentyFiveHundredths;
+  static final double xlg =
+      AppDimension.xLarge / AppDimension.twentyFiveHundredths;
 
-  static SvgPicture lang = SvgPicture.asset(
-    'assets/icons/language_icon.svg',
+  static final SvgPicture lang = SvgPicture.asset(
+    AppIcons.languageIcon,
     width: xlg.w,
     height: xlg.w,
   );
-  static SvgPicture logout = SvgPicture.asset(
-    'assets/icons/logout.svg',
+  static final SvgPicture logout = SvgPicture.asset(
+    AppIcons.logoutIcon,
     width: xlg.w,
     height: xlg.w,
   );
-  static SvgPicture settings = SvgPicture.asset(
-    'assets/icons/settings icon_icon.svg',
+  static final SvgPicture settings = SvgPicture.asset(
+    AppIcons.settingsIcon,
     width: xlg.w,
     height: xlg.w,
     //color: Colors.greenAccent,
   );
-  static SvgPicture terms = SvgPicture.asset(
-    'assets/icons/terms.svg',
+  static final SvgPicture terms = SvgPicture.asset(
+    AppIcons.termIcon,
     width: xlg.w,
     height: xlg.w,
   );
-  static SvgPicture theme = SvgPicture.asset(
-    'assets/icons/theme_icon.svg',
+  static final SvgPicture theme = SvgPicture.asset(
+    AppIcons.themeIcon,
+    width: xlg.w,
+    height: xlg.w,
+  );
+  static final SvgPicture lightSales = SvgPicture.asset(
+    AppIcons.lightSales,
+    width: xlg.w,
+    height: xlg.w,
+  );
+  static final SvgPicture darkSales = SvgPicture.asset(
+    AppIcons.darkSales,
+    width: xlg.w,
+    height: xlg.w,
+  );
+  static final SvgPicture lightDetails = SvgPicture.asset(
+    AppIcons.lightDetails,
+    width: xlg.w,
+    height: xlg.w,
+  );
+  static final SvgPicture darkDetails = SvgPicture.asset(
+    AppIcons.darkDetails,
     width: xlg.w,
     height: xlg.w,
   );

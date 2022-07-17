@@ -1,4 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:easy_travel/utils/constant/app_icon.dart';
 import 'package:easy_travel/utils/languages/app_language_key.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -26,3 +27,7 @@ part '../../main_configuration.dart';
 // * component
 
 part '../../component/Rental_appbar/custom_appbar.dart';
+part '../../views/home_screen/widgets/custom_drawer/drawer_page.dart';
+part '../../views/home_screen/widgets/custom_drawer/profile/drawer_profile.dart';
+part '../../views/home_screen/widgets/custom_drawer/options/drawer_main_option.dart';
+part '../../views/home_screen/widgets/custom_drawer/options/drawer_design.dart';

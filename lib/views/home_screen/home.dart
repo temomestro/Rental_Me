@@ -6,7 +6,9 @@ class PageHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(title:AppLanguageKey.appName.tr()),
+      appBar: CustomAppBar(title: AppLanguageKey.appName.tr()),
+      drawer: const DrawerPage(),
+
     );
   }
 }
