@@ -26,8 +26,10 @@ part '../../main_configuration.dart';
 
 // * component
 
-part '../../component/Rental_appbar/custom_appbar.dart';
+part '../../views/home_screen/widgets/appbar/home_appbar.dart';
 part '../../views/home_screen/widgets/custom_drawer/drawer_page.dart';
 part '../../views/home_screen/widgets/custom_drawer/profile/drawer_profile.dart';
 part '../../views/home_screen/widgets/custom_drawer/options/drawer_main_option.dart';
 part '../../views/home_screen/widgets/custom_drawer/options/drawer_design.dart';
+part '../../views/home_screen/widgets/rent_car/car_main_page.dart';
+part '../../views/home_screen/widgets/rent_house/house_main_page.dart';

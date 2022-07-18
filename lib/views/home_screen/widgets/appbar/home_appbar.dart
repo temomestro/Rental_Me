@@ -1,14 +1,18 @@
-part of '../../utils/imports/app_import.dart';
+part of '../../../../utils/imports/app_import.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
-  const CustomAppBar({Key? key, required this.title, this.action})
-      : super(key: key);
+  const CustomAppBar({Key? key, required this.title}) : super(key: key);
   final String title;
-  final Widget? action;
   @override
   Widget build(BuildContext context) {
     return AppBar(
       title: Text(title),
+      bottom: TabBar(
+        tabs: [
+          Tab(child: Text(AppLanguageKey.rentHouse)),
+          Tab(child: Text(AppLanguageKey.rentCar))
+        ],
+      ),
       flexibleSpace: Container(
         width: double.infinity,
         height: double.infinity,
@@ -16,11 +20,11 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
           image: DecorationImage(
               image: AssetImage(AppImages.blueBack), fit: BoxFit.fill),
         ),
-        //actions: [IconButton(icon:AppSvg.lang, onPressed: () {  },)],
       ),
     );
   }
 
   @override
-  Size get preferredSize => Size.fromHeight(AppBar().preferredSize.height);
+  Size get preferredSize =>
+      Size.fromHeight(AppBar().preferredSize.height + kTextTabBarHeight.h);
 }

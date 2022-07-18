@@ -7,4 +7,6 @@ class AppLanguageKey {
   static String details = 'Details';
   static String privacy = 'Privacy';
   static String settings = 'Settings';
+  static String rentCar = 'Rent Car';
+  static String rentHouse = 'Rent House';
 }
