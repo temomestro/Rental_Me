@@ -10,4 +10,8 @@ class AppIcons {
   static String darkDetails = 'assets/icons/info-white.svg';
   static String lightSales = 'assets/icons/cart-plus.svg';
   static String darkSales = 'assets/icons/cart-plus-white.svg';
+  static String darkTerms = 'assets/icons/darkterm.svg';
+  static String lightTerms = 'assets/icons/lightterms.svg';
+  static String darkSettings = 'assets/icons/dark_settings.svg';
+  static String lightSettings = 'assets/icons/light_settings.svg';
 }

@@ -50,4 +50,24 @@ class AppSvg {
     width: xlg.w,
     height: xlg.w,
   );
+  static final SvgPicture darkTerm = SvgPicture.asset(
+    AppIcons.darkTerms,
+    width: xlg.w,
+    height: xlg,
+  );
+  static final SvgPicture lightTerm = SvgPicture.asset(
+    AppIcons.lightTerms,
+    width: xlg.w,
+    height: xlg,
+  );
+  static final SvgPicture lightSettings = SvgPicture.asset(
+    AppIcons.lightSettings,
+    width: xlg.w,
+    height: xlg,
+  );
+  static final SvgPicture darkSettings = SvgPicture.asset(
+    AppIcons.darkSettings,
+    width: xlg.w,
+    height: xlg,
+  );
 }

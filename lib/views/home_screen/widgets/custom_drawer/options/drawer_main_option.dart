@@ -19,6 +19,18 @@ class DrawerOption extends StatelessWidget {
             icon: AppTextTheme.isDark(context)
                 ? AppSvg.darkDetails
                 : AppSvg.lightDetails),
+        // * terms
+        DrawerDesign(
+            title: AppLanguageKey.privacy,
+            icon: AppTextTheme.isDark(context)
+                ? AppSvg.darkTerm
+                : AppSvg.lightTerm),
+        // * Settings
+        DrawerDesign(
+            title: AppLanguageKey.settings,
+            icon: AppTextTheme.isDark(context)
+                ? AppSvg.darkSettings
+                : AppSvg.lightSettings)
       ],
     );
   }

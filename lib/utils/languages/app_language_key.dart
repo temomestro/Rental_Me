@@ -5,4 +5,6 @@ class AppLanguageKey {
   static String name = 'Name';
   static String bestSales = 'BestSales';
   static String details = 'Details';
+  static String privacy = 'Privacy';
+  static String settings = 'Settings';
 }
