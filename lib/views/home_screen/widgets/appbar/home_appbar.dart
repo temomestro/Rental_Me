@@ -8,9 +8,17 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       title: Text(title),
       bottom: TabBar(
+        indicatorColor: AppColors.bgBlue,
         tabs: [
-          Tab(child: Text(AppLanguageKey.rentHouse)),
-          Tab(child: Text(AppLanguageKey.rentCar))
+          Tab(
+            icon: const Icon(Icons.house_rounded),
+            child: Text(AppLanguageKey.rentHouse.tr()),
+          ),
+          Tab(
+              icon: const Icon(Icons.car_rental),
+              child: Text(
+                AppLanguageKey.rentCar.tr(),
+              )),
         ],
       ),
       flexibleSpace: Container(
