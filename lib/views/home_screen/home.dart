@@ -9,7 +9,7 @@ class PageHome extends StatelessWidget {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
-          appBar: CustomAppBar(title: AppLanguageKey.appName.tr()),
+          appBar: CustomAppBar(title: AppLanguageKey.appName),
           drawer: const DrawerPage(),
           body: const TabBarView(children: bodyPages)),
     );

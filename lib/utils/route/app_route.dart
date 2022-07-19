@@ -5,5 +5,6 @@ class AppRoute {
   static Map<String, WidgetBuilder> route = {
     PageSplash.routeName: (context) => const PageSplash(),
     PageHome.routeName: (context) => const PageHome(),
+    PageSettings.routeName: (context) => const PageSettings(),
   };
 }

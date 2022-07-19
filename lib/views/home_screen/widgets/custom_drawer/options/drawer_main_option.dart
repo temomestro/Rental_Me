@@ -2,7 +2,6 @@ part of '../../../../../utils/imports/app_import.dart';
 
 class DrawerOption extends StatelessWidget {
   const DrawerOption({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -30,7 +29,7 @@ class DrawerOption extends StatelessWidget {
             title: AppLanguageKey.settings,
             icon: AppTextTheme.isDark(context)
                 ? AppSvg.darkSettings
-                : AppSvg.lightSettings)
+                : AppSvg.lightSettings,onTap: ()=>Navigator.pushReplacementNamed(context,PageSettings.routeName),)
       ],
     );
   }

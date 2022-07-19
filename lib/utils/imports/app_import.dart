@@ -33,3 +33,7 @@ part '../../views/home_screen/widgets/custom_drawer/options/drawer_main_option.d
 part '../../views/home_screen/widgets/custom_drawer/options/drawer_design.dart';
 part '../../views/home_screen/widgets/rent_car/car_main_page.dart';
 part '../../views/home_screen/widgets/rent_house/house_main_page.dart';
+part '../../views/home_screen/widgets/custom_drawer/options/settings/design/setting_page.dart';
+part '../../component/appbar/comp_appbar.dart';
+part '../../views/home_screen/widgets/custom_drawer/options/settings/design/setting_body.dart';
+

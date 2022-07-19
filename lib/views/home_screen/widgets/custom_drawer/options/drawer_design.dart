@@ -14,6 +14,7 @@ class DrawerDesign extends StatelessWidget {
       title: Text(title).tr(),
       leading: icon,
       trailing: trailing,
+      onTap: onTap,
 
     );
   }

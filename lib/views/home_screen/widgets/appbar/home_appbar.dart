@@ -6,7 +6,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text(title),
+      title: Text(title.tr()),
       bottom: TabBar(
         indicatorColor: AppColors.bgBlue,
         tabs: [
